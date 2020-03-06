@@ -1,2 +1,2 @@
 susp: Suspect.c
-   gcc Suspect.c -Wall -o susp
+	gcc -Wall -o susp Suspect.c -lm
